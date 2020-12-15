@@ -31,7 +31,7 @@ div.VList {
 }
 
 div.scrollable {
-    display: inline-block;
+    float: left;
     width: 50%;
   height: 50%;
   overflow: auto;
