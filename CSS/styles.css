@@ -59,23 +59,8 @@ div.scrollable {
       100% {color: rgb(70, 45, 235)}
 }
 
-.theme-gilded-dark {
+.theme {
     --color-primary: rgb(21, 21, 21);
     --color-accent: gold;
     --font-color: gold;
- }
- .theme-plain-dark {
-    --color-primary: rgb(21, 21, 21);
-    --color-accent: rgb(233, 233, 233);
-    --font-color: rgb(233, 233, 233);
- }
- .theme-gilded-light {
-    --color-primary: rgb(233, 233, 233);
-    --color-accent: gold;
-    --font-color: rgb(0, 0, 0);
- }
- .theme-plain-light {
-    --color-primary: rgb(233, 233, 233);
-    --color-accent: rgb(48, 252, 106);
-    --font-color: rgb(0, 0, 0);
  }
