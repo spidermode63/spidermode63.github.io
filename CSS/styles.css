@@ -1,4 +1,7 @@
 body {
+    --color-primary: rgb(21, 21, 21);
+    --color-accent: gold;
+    --font-color: gold;
     background: var(--color-primary);
     color: var(--font-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,9 +61,3 @@ div.scrollable {
       80%  {color: rgb(235, 45, 213)}
       100% {color: rgb(70, 45, 235)}
 }
-
-.theme {
-    --color-primary: rgb(21, 21, 21);
-    --color-accent: gold;
-    --font-color: gold;
- }
