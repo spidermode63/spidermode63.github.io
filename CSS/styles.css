@@ -15,12 +15,13 @@ a:hover {
     text-decoration: none;
 }
 
-.List {
-    background: rgb(31, 31, 31);
-    border: 1px solid rgb(233, 233, 233);
-    width: 20%;
-    padding-bottom: 10px;
-    border-radius: 5, 5, 5, 5;
+div.List {
+    display:inline-block;
+      width: 55%;
+      border: 1px solid rgb(233, 233, 233);
+       background: rgb(21, 21, 21);
+      border-radius: 25px 25px 25px 25px;
+      padding: 5px;
 }
 
 @keyframes fadeRGB
