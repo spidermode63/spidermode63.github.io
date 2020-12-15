@@ -43,14 +43,16 @@ div.scrollable {
 @keyframes fadeRGB
     {
       0%   {color: rgb(54, 158, 255)}
-      33%  {color: rgb(54, 255, 195)}
-      66%  {color: rgb(252, 255, 54)}
-      100% {color: rgb(255, 77, 12)}
+      25%  {color: rgb(54, 255, 195)}
+      50%  {color: rgb(252, 255, 54)}
+      75%  {color: rgb(255, 77, 12)}
+      100% {color: rgb(235, 45, 213)}
    }
 
 @-webkit-keyframes fadeRGB {
-    0%   {color: rgb(54, 158, 255)}
-    33%  {color: rgb(54, 255, 195)}
-    66%  {color: rgb(252, 255, 54)}
-    100% {color: rgb(255, 77, 12)}
+      0%   {color: rgb(54, 158, 255)}
+      25%  {color: rgb(54, 255, 195)}
+      50%  {color: rgb(252, 255, 54)}
+      75%  {color: rgb(255, 77, 12)}
+      100% {color: rgb(235, 45, 213)}
 }
