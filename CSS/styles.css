@@ -6,11 +6,13 @@ body {
 }
 a {
     color: rgb(233, 233, 233);
+    text-decoration: none;
 }
 
 a:hover {
 
     -webkit-animation:fadeRGB 2s infinite;
+    text-decoration: none;
 }
 
 @keyframes fadeRGB
