@@ -1,6 +1,6 @@
 body {
     --color-primary: rgb(21, 21, 21);
-    --color-accent: rgb(129, 255, 144);
+    --color-accent: gold;
     --font-color: rgb(233, 233, 233);
     background: var(--color-primary);
     color: var(--font-color);
