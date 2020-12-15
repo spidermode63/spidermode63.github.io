@@ -1,3 +1,4 @@
+
 //these variables connect our code with the 'id' on the html
 //we can then manipulate the variables and it will manipulate the html
 var images = document.getElementById("images"); 
