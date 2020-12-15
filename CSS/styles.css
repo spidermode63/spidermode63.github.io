@@ -15,6 +15,11 @@ a:hover {
     text-decoration: none;
 }
 
+.list {
+    background: rgb(31, 31, 31);
+    border: 1px solid rgb(233, 233, 233);
+}
+
 @keyframes fadeRGB
     {
       0%   {color: rgb(54, 158, 255)}
