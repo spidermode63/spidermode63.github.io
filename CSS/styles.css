@@ -19,14 +19,14 @@ div.List {
     display:inline-block;
       width: 20%;
       border: 1px solid var(--color-accent);
-       background: rgb(31, 31, 31);
+       background: var(--color-primary);
       padding-bottom: 20px;
 }
 
 div.VList {
       width: 45%;
       border: 1px solid var(--color-accent);
-       background: rgb(31, 31, 31);
+       background: var(--color-primary);
       padding-bottom: 20px;
 }
 
@@ -36,7 +36,7 @@ div.scrollable {
     height: 1000px;
   overflow: auto;
   border: 1px solid var(--color-accent);
-  background: rgb(31, 31, 31);
+  background: var(--color-primary);
  padding-bottom: 20px;
 }
 
