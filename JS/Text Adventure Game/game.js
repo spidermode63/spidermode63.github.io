@@ -204,7 +204,7 @@ const textNodes = [
         {
           text: 'Accept',
           nextText: 14
-        }
+        },
         {
           text: 'Decline',
           nextText: 17
@@ -237,7 +237,7 @@ const textNodes = [
       }
 
      ]
-    }
+    },
     {
       id: 15,
       text: 'You are in jail for murder',
