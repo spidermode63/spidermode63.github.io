@@ -128,11 +128,12 @@ const textNodes = [
   },
   {
     id: 7,
-    text: 'you run from the monster and it explodes with hunger, dropping a dungeon souveneir',
+    text: 'you run from the monster and it explodes with hunger, dropping a dungeon souveneir!',
     options: [
       {
         text: 'Return to the surface',
-        nextText: 8
+        nextText: 8,
+        setState: {souveneir: true}
       }
     ]
   },
@@ -168,14 +169,100 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'You walk the grassy plains in search of slug leather, but you must wait until I finish making this game.',
+    text: 'You walk through the grassy plains. There is a gate with a slot that will only fit a dungeon souveneir. Next to it lies a small bronze shortsword',
     options: [
       {
-        text: 'Restart',
-        nextText: -1
+        text: 'Take sword',
+        setState: {bronzeshort: true},
+        nextText: 12
+      },
+      {
+        text: 'Use Souveneir to unlock gate',
+        requiredState: (currentState) => currentState.souveneir,
+        setState: {souveneir: false}
       }
     ]
-  }
+  },
+  {
+    id: 12,
+      text: 'You turn around and see a slug in the distance. You kill it with your sword and receive slug leather',
+      options: [
+
+        {
+          text: 'Return to Dungeon',
+          setState: {slugLeather: true},
+          nextText: 6
+        }
+
+      ]
+  },
+  {
+    id: 13,
+      text: 'You insert the souveneir into the gate and it shatters. The gates creak open. A well dressed man greets you: "Hello, I am alexander. I would like to inform you that we have a criminal in our town and we want him dead. Can you do that? He is wearing a red striped shirt with cracked glasses and blue jeans and his name is Waldo. He also tends to drive a silver car with exactly 63 bullet holes in the trunk"',
+      options: [
+
+        {
+          text: 'Accept',
+          nextText: 14
+        }
+        {
+          text: 'Decline',
+          nextText: 17
+        }
+      ]
+  },
+    {
+      id: 14,
+      text: 'You gather all of the citizens to meet in their cars. There are only 4 citizens so it is not a big deal. Who do you kill?',
+     options: [
+
+      {
+        text: 'A: He is wearing a red striped shirt with glasses and khakis and his name is Waldo. He drives a silver car with exactly 63 bullet holes in the trunk',
+        nextText: 15
+      },
+
+      {
+        text: 'B: He is wearing a red striped shirt with glasses and blue jeans and his name is Waldo. He drives a grey car with exactly 36 bullet holes in the trunk',
+        nextText: 15
+      },
+
+      {
+        text: 'C: He is wearing a red striped shirt with cracked glasses and blue jeans and his name is Waldo. He drives a silver car with exactly 63 bullet holes in the trunk',
+        nextText: 16
+      },
+
+      {
+        text: 'D: She is wearing a red striped shirt with cracked glasses and blue jeans and her name is Waldo. He drives a blue car with exactly 2 bullet holes in the trunk',
+        nextText: 15
+      }
+
+     ]
+    }
+    {
+      id: 15,
+      text: 'You are in jail for murder',
+      options: [
+        {
+          text: 'Be executed',
+          nextText: -1
+        }
+      ]
+    },
+    {
+      id: 16,
+      text: 'You have caught the killer! Alexander rewards you with a teleporty thing',
+      options: [
+        {
+          text: 'continue',
+          setState: {tpt: true},
+          nextText: 17
+        }
+      ]
+    },
+    {
+      id: 17,
+      text: 'ok I added a bit more for fun but I am tired now.'
+    }
 ]
 
 startGame()
