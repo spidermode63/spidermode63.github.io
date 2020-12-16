@@ -179,7 +179,8 @@ const textNodes = [
       {
         text: 'Use Souveneir to unlock gate',
         requiredState: (currentState) => currentState.souveneir,
-        setState: {souveneir: false}
+        setState: {souveneir: false},
+        nextText: 13
       }
     ]
   },
