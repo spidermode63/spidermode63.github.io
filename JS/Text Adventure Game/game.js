@@ -139,11 +139,11 @@ const textNodes = [
   },
   {
     id: 8,
-    text: 'You win! This game is under construction though so this may not be the end forever :)',
+    text: 'You reach the surface.',
     options: [
       {
-        text: 'Restart',
-        nextText: -1
+        text: 'Go to the plains',
+        nextText: 11
       }
     ]
   },
