@@ -1,7 +1,7 @@
 body {
-    --color-primary: rgb(21, 21, 21);
-    --color-accent: gold;
-    --font-color: rgb(233, 233, 233);
+    --color-primary: rgb(0, 0, 0);
+    --color-accent: rgb(255, 255, 255);
+    --font-color: rgb(255, 255, 255);
     background: var(--color-primary);
     color: var(--font-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
