@@ -43,6 +43,10 @@ div.scrollable {
  padding-bottom: 20px;
 }
 
+div.inline {
+    display: inline-block;
+}
+
 @keyframes fadeRGB
     {
         0%   {color: rgb(54, 158, 255)}
