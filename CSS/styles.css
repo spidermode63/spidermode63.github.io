@@ -46,6 +46,35 @@ div.scrollable {
 div.inline {
     display: inline-block;
 }
+div.scrollable {
+    overflow-y: scroll;
+    display: inline;
+    height: 570px;
+    width: 100%;
+}
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-image: url(Images/scrollbar/bg-scrollbar-track.png);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+  }
+
+  div.note {
+      display: none;
+  }
 
 @keyframes fadeRGB
     {
