@@ -46,7 +46,7 @@ div.scrollable {
 div.inline {
     display: inline-block;
 }
-div.scrollable {
+scrollable {
     overflow-y: scroll;
     display: inline;
     height: 570px;
