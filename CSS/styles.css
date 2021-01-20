@@ -49,7 +49,7 @@ div.inline {
 div.scrollable {
     overflow-y: scroll;
     display: inline;
-    height: 570px;
+    height: 610px;
     width: 100%;
 }
  /* width */
