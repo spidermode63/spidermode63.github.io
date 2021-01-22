@@ -9,13 +9,13 @@ body {
 }
 a {
     color: var(--font-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
 
     -webkit-animation:fadeRGB 2s infinite;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 div.List {
@@ -59,7 +59,7 @@ div.scrollable {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background-image: url(Images/scrollbar/bg-scrollbar-track.png);
+    background: #000000;
   }
   
   /* Handle */
@@ -69,7 +69,7 @@ div.scrollable {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(255, 255, 255);
+    background: rgb(213, 213, 213);
   }
 
   div.note {
