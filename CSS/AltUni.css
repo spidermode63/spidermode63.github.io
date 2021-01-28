@@ -1,0 +1,95 @@
+body {
+    --color-primary: rgb(0, 0, 0);
+    --color-accent: rgb(225, 190, 75);
+    --font-color: rgb(225, 190, 75);
+    background: var(--color-primary);
+    color: var(--font-color);
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    text-align: center;
+}
+hr {
+    background: rgb(225, 190, 75);
+}
+a {
+    color: var(--font-color);
+    text-decoration: underline;
+}
+
+a:hover {
+
+    -webkit-animation:fadeRGB 2s infinite;
+    text-decoration: underline;
+}
+
+div.List {
+    display:inline-block;
+      width: 20%;
+      border: 1px solid var(--color-accent);
+       background: var(--color-primary);
+      padding-bottom: 20px;
+}
+
+div.VList {
+      width: 45%;
+      border: 1px solid var(--color-accent);
+       background: var(--color-primary);
+      padding-bottom: 20px;
+}
+
+div.scrollable {
+    float: right;
+    width: 45%;
+    height: 1000px;
+  overflow: auto;
+  border: 1px solid var(--color-accent);
+  background: var(--color-primary);
+ padding-bottom: 20px;
+}
+
+div.scrollable {
+    height: 610px;
+    width: 100%;
+}
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(225, 190, 75);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    -webkit-animation:fadeRGB2 2s infinite;
+    background: rgb(130, 109, 42);
+  }
+
+  div.note {
+      display: none;
+  }
+
+@keyframes fadeRGB
+    {
+        0%   {color: rgb(54, 158, 255)}
+        20%  {color: rgb(54, 255, 195)}
+        40%  {color: rgb(252, 255, 54)}
+        60%  {color: rgb(255, 77, 12)}
+        80%  {color: rgb(235, 45, 213)}
+        100% {color: rgb(70, 45, 235)}
+   }
+
+@-webkit-keyframes fadeRGB {
+      0%   {color: rgb(54, 158, 255)}
+      20%  {color: rgb(54, 255, 195)}
+      40%  {color: rgb(252, 255, 54)}
+      60%  {color: rgb(255, 77, 12)}
+      80%  {color: rgb(235, 45, 213)}
+      100% {color: rgb(70, 45, 235)}
+}
