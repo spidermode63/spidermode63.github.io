@@ -64,7 +64,8 @@ div.scrollable {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(213, 213, 213);
+    -webkit-animation:fadeRGB2 2s infinite;
+    background: rgb(206, 206, 206);
   }
 
   div.note {
