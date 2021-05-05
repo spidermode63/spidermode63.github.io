@@ -4,7 +4,7 @@ body {
     --font-color: rgb(255, 255, 255);
     background: var(--color-primary);
     color: var(--font-color);
-    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 a {
