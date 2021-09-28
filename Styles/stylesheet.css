@@ -6,6 +6,8 @@ body
 }
 .child {
     display: inline-block;
+    padding: 2px;
+    margin: 2px;
 }
 .floatR
 {
@@ -27,7 +29,6 @@ body
     border-color: rgb(199, 199, 199);
     border-style: groove;
     font-size: small;
-    
 }
 .button:hover
 {
@@ -43,4 +44,7 @@ body
 {
     background-image: url("../Images/Maremol.gif");
 }
-/*stylesheet is cool
+a {
+color: #EEEEEE;
+
+}
