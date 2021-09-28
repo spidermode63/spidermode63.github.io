@@ -1,6 +1,8 @@
 body 
 {
-    background-color: blanchedalmond;
+    background-color: rgb(3, 3, 41);
+    color: #EEEEEE;
+    background-image: url("../Images/spacebgani.gif");
 }
 .child {
     display: inline-block;
@@ -16,4 +18,28 @@ body
 .Central 
 {
     text-align: center;
+}
+.button 
+{
+    color: black;
+    background-color: #EEEEEE;
+    padding: 4px 10px;
+    border-color: rgb(199, 199, 199);
+    border-style: groove;
+    font-size: small;
+    
+}
+.button:hover
+{
+    color: #EEEEEE;
+    background-color: #1d1d1d;
+    padding: 4px 10px;
+    border-color: rgb(199, 199, 199);
+    border-style: groove;
+    font-size: small;
+    
+}
+.Marquee 
+{
+    background-image: url("../Images/Maremol.gif");
 }
