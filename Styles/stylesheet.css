@@ -1,0 +1,19 @@
+body 
+{
+    background-color: blanchedalmond;
+}
+.child {
+    display: inline-block;
+}
+.floatR
+{
+    float: right;
+}
+.floatL
+{
+    float: left;
+}
+.Central 
+{
+    text-align: center;
+}
