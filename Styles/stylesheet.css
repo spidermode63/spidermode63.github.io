@@ -6,6 +6,7 @@ body
 }
 .child {
     display: inline-block;
+    padding: 0;
 }
 .floatR
 {
