@@ -4,6 +4,9 @@ body
     color: #EEEEEE;
     background-image: url("../Images/spacebgani.gif");
 }
+.Splash {
+    color: yellow;
+}
 .child {
     display: inline-block;
     padding: 0;
