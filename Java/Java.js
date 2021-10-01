@@ -30,7 +30,12 @@ const Splashes = [
     "This text has nothing to do with Minecraft",
     "What... Oh-",
     "This makes 29!",
-    "And this makes 30!"
+    "And this makes 30!",
+    "But have you considered.. water?",
+    "Feeling very Dorceless today",
+    "Sadness can be overrated",
+    "Stop trying",
+    "The 35th splash text!"
 ];
 
 const random = Math.floor(Math.random() * Splashes.length);
