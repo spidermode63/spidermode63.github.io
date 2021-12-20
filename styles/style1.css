@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210, 229, 243);
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/starsbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+a {
+    color: aliceblue;
+}
