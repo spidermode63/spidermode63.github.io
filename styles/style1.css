@@ -1,6 +1,13 @@
+:root {
+    --accent: #4f8ec1;
+    --secondary: rgb(99, 91, 238);
+    --tertiary: #c99c69 ;
+    --background: #090707;
+}
+
 body {
-    background-color: black;
-    color: rgb(137, 161, 255);
+    background-color: var(--background);
+    color: var(--accent);
 }
 
 h1 {
@@ -12,10 +19,13 @@ p {
 }
 
 a {
-    color: aliceblue;
+    color: var(--secondary);
+}
+a:hover {
+    color: var(--tertiary);
 }
 
 hr {
-    border: 1px solid rgb(137, 161, 255);
+    border: 1px solid var(--accent);
     border-radius: 5px;
 }
