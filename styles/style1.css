@@ -3,6 +3,18 @@
     --secondary: rgb(99, 91, 238);
     --tertiary: #c99c69 ;
     --background: #090707;
+
+/*Dark*/
+    /*--accent: #4f8ec1;
+    --secondary: rgb(99, 91, 238);
+    --tertiary: #c99c69 ;
+    --background: #090707;*/
+    
+/*Light*/
+    /*--accent: #008cff;
+    --secondary: rgb(99, 91, 238);
+    --tertiary: #c99c69 ;
+    --background: rgb(192, 192, 192);*/
 }
 
 body {
