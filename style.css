@@ -8,5 +8,29 @@ body {
     margin-right: 15%;
 }
 a {
-    color: #43aee4;
+    color: rgb(119, 202, 243);
+    text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+    text-align: center;
+    animation: colorRotate 3s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+      color: #ff3838;
+    }
+    25% {
+      color: #ffc800;
+    }
+    50% {
+      color: #67ff26;
+    }
+    75% {
+      color: #002aff;
+    }
+    100% {
+      color: #ff3838;
+    }
+  }
