@@ -16,6 +16,10 @@ a:hover {
     text-align: center;
     animation: colorRotate 3s linear 0s infinite;
 }
+.fineprint {
+  color: grey;
+  font-size: 12px;
+}
 
 @keyframes colorRotate {
     from {
