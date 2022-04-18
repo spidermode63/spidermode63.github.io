@@ -34,3 +34,14 @@ a:hover {
       color: #ff3838;
     }
   }
+
+  .stats {
+    width: 40%;
+    display: inline-block;
+    border-style: none solid none solid;
+  }
+  .enginepic {
+    width: 28%;
+    display: inline-block;
+    border-style: none solid none none;
+  }
