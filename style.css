@@ -26,13 +26,13 @@ body {
   background-size: cover;
   background-position: 0% 10%;
   border-radius: 5px;
-  transition: .5s;
+  transition: 2s;
 }
 .space:hover {
   background-color: rgb(0, 22, 45);
   border-radius: 10px;
   filter: brightness(1.5);
-  animation: shake .3s;
+  animation: shake2 5s;
   animation-iteration-count: infinite;
 }
 .vfx:hover {
@@ -41,6 +41,23 @@ body {
   filter: brightness(2);
   animation: shake .3s;
   animation-iteration-count: infinite;
+}
+a.button {
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+  color: #cdd3dc;
+  border-color: #cdd3dc;
+  border-radius: 5px;
+  transition: .5s;
+}
+a.button:hover {
+  background-color: #cdd3dc;
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: .5s;
 }
 
 @keyframes shake {
@@ -55,6 +72,12 @@ body {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes shake2 {
+  0% { transform: rotate(-1deg); }
+  50% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
 }
 
 a {
@@ -72,28 +95,28 @@ a:hover {
   font-size: 12px;
 }
 
-  .stats {
-    width: 40%;
-    display: inline-block;
-    border-style: none solid none solid;
+  .estats {
+    border-style: solid solid solid solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('img/engines/el3030turnaround0001.png');
+    background-position: center;
+    background-size:contain;
+    transition: 1s;
   }
-  .enginepic {
-    width: 28%;
-    display: inline-block;
+
+  .estats:hover {
+    background-color: rgb(248, 66, 87);
+    color: rgba(0, 0, 0, 0);
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('img/engines/el3030turnaround0001.png');
+    background-position: center;
+    background-size:contain;
+    transition: 1s;
   }
 
   @media only screen and (max-device-width: 480px) {
-    .body {
-      margin-left: 0%;
-      margin-right: 0%;
-    }
-    .stats {
-      width: 100%;
-      display: block;
-      border-style: none none solid none;
-    }
-    .enginepic {
-      width: 100%;
-      display: block;
-    }
   }
