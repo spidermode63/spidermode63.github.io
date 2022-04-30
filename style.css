@@ -95,16 +95,17 @@ a:hover {
   font-size: 12px;
 }
 
-  .engines {
-    position: absolute;
-    left: 38.5%;
-  }
+.engines {
+  display: flex;
+  flex-direction: column;
+}
 
   .estats {
     color: rgb(248, 66, 87);
+    width: 30%;
+    margin: auto;
     border-style: solid solid solid solid;
     border-radius: 10px;
-    width: 110%;
     transition: 1s;
   }
 
@@ -116,23 +117,27 @@ a:hover {
   #e3030 {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url('img/engines/el3030turnaround0001.png');
     background-position: center;
-    background-size:cover;
+    background-size:contain;
+    background-repeat: no-repeat;
   }
   #e3030:hover {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('img/engines/el3030turnaround0001.png');
     background-position: center;
-    background-size:cover;
+    background-size:contain;
+    background-repeat: no-repeat;
   }
 
   #poe1 {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url('img/engines/poe1.png');
     background-position: center;
-    background-size:cover;
+    background-size:contain;
+    background-repeat: no-repeat;
   }
   #poe1:hover {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('img/engines/poe1.png');
     background-position: center;
-    background-size:cover;
+    background-size:contain;
+    background-repeat: no-repeat;
   }
 
   img.icon {
