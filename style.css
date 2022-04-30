@@ -102,6 +102,7 @@ a:hover {
 
   .estats {
     color: rgb(248, 66, 87);
+    border-color: rgb(248, 66, 87);
     width: 30%;
     margin: auto;
     border-style: solid solid solid solid;
