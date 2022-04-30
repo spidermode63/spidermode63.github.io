@@ -95,27 +95,44 @@ a:hover {
   font-size: 12px;
 }
 
+  .engines {
+    position: absolute;
+    left: 38.5%;
+  }
+
   .estats {
     color: rgb(248, 66, 87);
     border-style: solid solid solid solid;
     border-radius: 10px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('img/engines/el3030turnaround0001.png');
-    background-position: center;
-    background-size:contain;
+    width: 110%;
     transition: 1s;
   }
 
   .estats:hover {
     color: rgba(0, 0, 0, 0);
+    transition: 1s;
+  }
+
+  #e3030 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url('img/engines/el3030turnaround0001.png');
+    background-position: center;
+    background-size:cover;
+  }
+  #e3030:hover {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('img/engines/el3030turnaround0001.png');
     background-position: center;
-    background-size:contain;
-    transition: 1s;
+    background-size:cover;
+  }
+
+  #poe1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url('img/engines/poe1.png');
+    background-position: center;
+    background-size:cover;
+  }
+  #poe1:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('img/engines/poe1.png');
+    background-position: center;
+    background-size:cover;
   }
 
   img.icon {
@@ -161,17 +178,18 @@ a:hover {
       bottom: 100%;
     }
     .estats {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      width: auto;
       color: rgb(248, 66, 87);
-      width: 90%;
       border-style: solid solid solid solid;
       border-radius: 10px;
       background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('img/engines/el3030turnaround0001.png');
       background-position: center;
       background-size:contain;
       background-repeat: no-repeat;
+    }
+    .engines {
+      position: absolute;
+      left: 10%;
+      right: 10%;
     }
   }
