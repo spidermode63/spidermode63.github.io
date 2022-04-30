@@ -107,7 +107,7 @@ a:hover {
     margin: auto;
     border-style: solid solid solid solid;
     border-radius: 10px;
-    transition: 1s;
+    transition: 2s;
   }
 
   .estats:hover {
