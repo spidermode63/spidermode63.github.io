@@ -1,0 +1,21 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+a {
+    color: rgb(182, 255, 242);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+a:visited {
+    color: rgb(140, 255, 203);
+}
+img.news {
+    width: 100%;
+}
+img.smol {
+    width: 40%;
+}
