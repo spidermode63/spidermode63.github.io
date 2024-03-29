@@ -19,3 +19,18 @@ img.news {
 img.smol {
     width: 40%;
 }
+.blogbox {
+    width: 90%;
+    margin: auto;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 5px;
+}
+img.blog {
+    width: 20%;
+    border-radius: 25px;
+    float: left;
+    margin: 5px;
+}
