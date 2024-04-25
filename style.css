@@ -20,6 +20,8 @@ img.news {
 img.smol {
     width: 40%;
     display: inline-block;
+    border: 2px solid white;
+
 }
 .blogbox {
     width: 90%;
